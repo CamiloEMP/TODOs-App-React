@@ -1,0 +1,13 @@
+h1 {
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 3px;
+  margin: 45px 0 15px 0;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}

@@ -1,4 +1,5 @@
 // import './App.css';
+import { HeaderNav } from "./HeaderNav";
 import { TodoCounter } from "./TodoCounter";
 import { TodoSearch } from "./TodoSearch";
 import { TodoList } from "./TodoList";
@@ -23,6 +24,7 @@ const todos = [
 function App() {
   return (
     <>
+    <HeaderNav />
     <TodoCounter />
     <TodoSearch />
     <TodoList>
