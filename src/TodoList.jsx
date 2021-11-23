@@ -1,6 +1,7 @@
+import './TodoList.css'
 function TodoList(props) {
   return (
-    <section>
+    <section className="tasks-container">
       <ul>
         {props.children}
       </ul>
