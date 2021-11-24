@@ -9,11 +9,11 @@ import { CreateTodoButton } from "./CreateTodoButton";
 const todos = [
   {
     text: 'Cortar pizza',
-    complete: false,
+    complete: true,
   },
   {
     text: 'Comer pizza',
-    complete: false,
+    complete: true,
   },
   {
     text: 'Tomar gaseosa',
@@ -29,7 +29,7 @@ function App() {
     <TodoSearch />
     <TodoList>
       {todos.map(todo => (
-        <TodoItem key={todo.text} text={todo.text}/>
+        <TodoItem key={todo.text} text={todo.text} completed={todo.complete}/>
       ))}
     </TodoList>
     <CreateTodoButton />

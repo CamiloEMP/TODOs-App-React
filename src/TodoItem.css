@@ -5,7 +5,32 @@ li {
   height: auto;
 }
 
-p {
+.task {
   color: #fff;
   font-size: 22px;
+}
+
+.container-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.check, .delete {
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.check-activate {
+  color: rgb(6, 201, 6);
+}
+
+.check-activate-text {
+  text-decoration: line-through;
+}
+
+.delete:hover {
+  color: red;
+
 }
