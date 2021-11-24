@@ -1,0 +1,23 @@
+.tasks-container {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 340px;
+  min-height: 300px;
+  margin: 40px auto;
+  overflow: auto;
+}
+
+.tasks-container::-webkit-scrollbar {
+  width: 7px;
+  background: #fff;
+}
+
+.tasks-container::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+.tasks-container ul {
+  width: 450px;
+  list-style: none;
+}
