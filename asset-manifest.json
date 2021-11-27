@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/git@github.com:CamiloEMP/TODOs-App-React.git/static/css/main.687a5734.chunk.css",
-    "main.js": "/git@github.com:CamiloEMP/TODOs-App-React.git/static/js/main.850b4537.chunk.js",
-    "main.js.map": "/git@github.com:CamiloEMP/TODOs-App-React.git/static/js/main.850b4537.chunk.js.map",
-    "runtime-main.js": "/git@github.com:CamiloEMP/TODOs-App-React.git/static/js/runtime-main.186d9e57.js",
-    "runtime-main.js.map": "/git@github.com:CamiloEMP/TODOs-App-React.git/static/js/runtime-main.186d9e57.js.map",
-    "static/js/2.10aad712.chunk.js": "/git@github.com:CamiloEMP/TODOs-App-React.git/static/js/2.10aad712.chunk.js",
-    "static/js/2.10aad712.chunk.js.map": "/git@github.com:CamiloEMP/TODOs-App-React.git/static/js/2.10aad712.chunk.js.map",
-    "index.html": "/git@github.com:CamiloEMP/TODOs-App-React.git/index.html",
-    "static/css/main.687a5734.chunk.css.map": "/git@github.com:CamiloEMP/TODOs-App-React.git/static/css/main.687a5734.chunk.css.map",
-    "static/js/2.10aad712.chunk.js.LICENSE.txt": "/git@github.com:CamiloEMP/TODOs-App-React.git/static/js/2.10aad712.chunk.js.LICENSE.txt"
+    "main.css": "/TODOs-App-React/static/css/main.687a5734.chunk.css",
+    "main.js": "/TODOs-App-React/static/js/main.850b4537.chunk.js",
+    "main.js.map": "/TODOs-App-React/static/js/main.850b4537.chunk.js.map",
+    "runtime-main.js": "/TODOs-App-React/static/js/runtime-main.b2c0f161.js",
+    "runtime-main.js.map": "/TODOs-App-React/static/js/runtime-main.b2c0f161.js.map",
+    "static/js/2.10aad712.chunk.js": "/TODOs-App-React/static/js/2.10aad712.chunk.js",
+    "static/js/2.10aad712.chunk.js.map": "/TODOs-App-React/static/js/2.10aad712.chunk.js.map",
+    "index.html": "/TODOs-App-React/index.html",
+    "static/css/main.687a5734.chunk.css.map": "/TODOs-App-React/static/css/main.687a5734.chunk.css.map",
+    "static/js/2.10aad712.chunk.js.LICENSE.txt": "/TODOs-App-React/static/js/2.10aad712.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.186d9e57.js",
+    "static/js/runtime-main.b2c0f161.js",
     "static/js/2.10aad712.chunk.js",
     "static/css/main.687a5734.chunk.css",
     "static/js/main.850b4537.chunk.js"
