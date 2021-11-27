@@ -1,0 +1,60 @@
+form {
+  width: 800px;
+  height: 465px;
+  background-color: #031956;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 80px;
+  border-radius: 12px;
+}
+
+label {
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 32px;
+}
+
+textarea {
+  font-size: 22px;
+  background-color: rgba(141, 141, 141, 0.116);
+  color: #fff;
+  padding: 10px;
+  resize: none;
+  border-radius: 5px;
+}
+
+.TodoForm-container-buttons {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 110px;
+  justify-items: center;
+  align-content: center;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  color: #fff;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Outfit', sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+
+.btn-right {
+  background-color: red;
+}
+
+.btn-left {
+  background-color: rgb(6, 201, 6);
+}

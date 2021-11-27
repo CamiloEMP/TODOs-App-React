@@ -13,4 +13,8 @@ body {
   width: 100%;
   text-align: center;
 }
+
+#root {
+  height: 100%;
+}
 /* Innecesary I can make in body but is more correct this*/

@@ -3,17 +3,27 @@ li {
   border: 1px solid rgba(255, 255, 255, 0.274);
   width: 100%;
   height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+i:first-child {
+  margin-right: 10px;
+}
+
+i:last-child {
+  margin-left: 10px;
+}
+
+i:hover {
+  color: rgb(6, 201, 6);
 }
 
 .task {
   color: #fff;
   font-size: 22px;
-}
-
-.container-items {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 20px;
 }
 
 .check, .delete {
@@ -32,5 +42,4 @@ li {
 
 .delete:hover {
   color: red;
-
 }

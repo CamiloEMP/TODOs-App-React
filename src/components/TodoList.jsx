@@ -1,10 +1,10 @@
-import '../styles/TodoList.css'
+import "../styles/TodoList.css";
 function TodoList(props) {
   return (
     <section className="tasks-container">
-      <ul>
-        {props.children}
-      </ul>
+      <div className="scroll">
+        <ul>{props.children}</ul>
+      </div>
     </section>
   );
 }
